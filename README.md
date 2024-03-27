@@ -1,7 +1,7 @@
 # BARK Asset Management dApp
 
 <div align="center">
-  <img src="https://github.com/bark-community/asset-management-dapp/blob/main/github/screenshot.png" alt="Asset Management dApp Screenshot" width="600" height="auto">
+  <img src="https://github.com/bark-community/claim-token-sample-app/blob/main/github/screenshot.png" alt="Asset Management dApp Screenshot" width="600" height="auto">
 </div>
 
 ## Table of Contents
