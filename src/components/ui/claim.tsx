@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from 'react';
 import { Button, Spinner, Input, Alert } from '@/components/ui';
 import { copyToClipboard } from '@/utils';
@@ -9,6 +11,7 @@ const Claim = () => {
     const [walletAddress, setWalletAddress] = useState('');
     const [claimSuccess, setClaimSuccess] = useState(false);
     const [error, setError] = useState('');
+
     const { publicKey, signTransaction } = useWallet();
 
     const handleClaim = async () => {
@@ -25,7 +28,7 @@ const Claim = () => {
         setLoading(true);
         try {
             const connection = new Connection('https://api.devnet.solana.com');
-            const tokenProgramId = new PublicKey('Your-Token-Program-ID');
+            const tokenProgramId = new PublicKey('Bark-Token-Program-ID'); // Replace with program ID
 
             const instruction = new TransactionInstruction({
                 keys: [{ pubkey: publicKey, isSigner: true, isWritable: true }],
@@ -40,6 +43,7 @@ const Claim = () => {
             setClaimSuccess(true);
             setWalletAddress('');
         } catch (err) {
+            console.error('Error claiming BARK tokens:', err);
             setError('Failed to claim BARK tokens. Please try again later.');
         } finally {
             setLoading(false);
@@ -63,7 +67,7 @@ const Claim = () => {
                         onChange={(e) => setWalletAddress(e.target.value)}
                     />
                     <div className="flex space-x-2">
-                        <Button onClick={handleClaim} disabled={loading}>
+                        <Button onClick={handleClaim} disabled={loading || claimSuccess}>
                             {claimSuccess ? 'Tokens Claimed!' : 'Claim Tokens'}
                         </Button>
                         <Button onClick={handleCopyAddress} disabled={!walletAddress}>

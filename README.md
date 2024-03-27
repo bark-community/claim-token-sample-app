@@ -1,6 +1,8 @@
 # BARK Asset Management dApp
 
-![BARK dApp](https://github.com/bark-community/prediction-platform/blob/2d4064427cffeac51cb457921435f16605be84af/github/screenshot.png)
+<div align="center">
+  <img src="https://github.com/bark-community/asset-management-dapp/blob/main/github/screenshot.png" alt="Asset Management dApp Screenshot" width="600" height="auto">
+</div>
 
 ## Table of Contents
 - [BARK Asset Management dApp](#bark-asset-management-dapp)
@@ -70,6 +72,7 @@ To install and run the BARK Asset Management dApp locally, follow these steps:
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to the BARK Asset Management dApp, please follow these steps:
+
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/your-feature-name`).
 3. Make your changes.
@@ -81,7 +84,7 @@ Please ensure that your contributions adhere to the project's coding standards a
 
 ## UI/UX Documentation
 
-Shadcn (https://ui.shadcn.com/)
+Shadcn: (https://ui.shadcn.com)
 
 ## License
 [LICENSE](LICENSE)

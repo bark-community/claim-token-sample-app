@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from 'react';
 
 interface CopyToClipboardProps {
@@ -27,7 +29,7 @@ const CopyToClipboard: React.FC<CopyToClipboardProps> = ({ text, buttonText = 'C
         {copied ? 'Copied!' : buttonText}
       </button>
       {copied && (
-        <span className="absolute top-full left-0 mt-2 text-sm text-gray-500">
+        <span role="status" className="absolute top-full left-0 mt-2 text-sm text-gray-500">
           Copied to clipboard
         </span>
       )}

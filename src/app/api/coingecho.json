@@ -2,12 +2,10 @@
     "tokens": {
       "BARK": {
         "price": {
-          "endpoint": "https://api.coingecko.com/api/v3/simple/price?ids=bark&vs_currencies=usd",
-          "path": "$.bark.usd"
+          "value": 0.000025
         },
         "transactions": {
-          "endpoint": "https://api.coingecko.com/api/v3/simple/price?ids=bark&vs_currencies=usd", // Replace with the actual transactions endpoint
-          "path": "$.bark.transactions" // Replace with the actual path to transaction data
+          "count": 100
         }
       }
     }
