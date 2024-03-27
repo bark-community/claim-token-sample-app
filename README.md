@@ -1,6 +1,6 @@
 # BARK Asset Management dApp
 
-![BARK dApp](https://github.com/bark-community/prediction-platform/blob/2d4064427cffeac51cb457921435f16605be84af/github/header.png)
+![BARK dApp](https://github.com/bark-community/prediction-platform/blob/2d4064427cffeac51cb457921435f16605be84af/github/screenshot.png)
 
 ## Table of Contents
 - [BARK Asset Management dApp](#bark-asset-management-dapp)
@@ -18,10 +18,9 @@
 
 ## Frameworks
 
-- Shawcn UI
+- Shadcn UI
 - Next.js
 - React
-- 
 
 ## Introduction
 Welcome to the BARK Asset Management dApp! This decentralized application (dApp), based on the Disbursement dApp, is designed to test new functionalities and is built on the Solana blockchain. It serves as the official $BARK token TGE claiming platform, enabling users to secure their early bonus and become a part of our community. The dApp empowers users to participate in BARK Token Sales, manage tokenized assets, and unleash predictive insights on Solana. Additionally, it allows users to market their assets seamlessly.
@@ -33,7 +32,7 @@ Welcome to the BARK Asset Management dApp! This decentralized application (dApp)
 - **Token Sale Monitoring:** Stay up-to-date with real-time monitoring of BARK Token Sales, enabling users to seize opportunities and make timely investment decisions.
 - **Transparent Transactions:** Ensure transparency and reliability in transactions with Menton Secured Transactions, leveraging Solana's blockchain technology for immutable and tamper-proof records.
 - **Asset Management:** Access a wide range of functionalities within the dApp, offering various features such as token management, staking, governance (BarkDAO), and more to enhance user engagement and participation.
-- **Market Your Assets:** Seamlessly market your assets within the dApp to reach a wider audience and maximize your investment opportunities.
+- **Marketplace:** Seamlessly market your assets within the dApp to reach a wider audience and maximize your investment opportunities.
 
 ## Usage
 Users can:

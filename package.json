@@ -1,6 +1,6 @@
 {
   "name": "asset-management-dapp",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "description": "The BARK Asset Management dApp stands as a beacon of innovation within the decentralized application landscape, harnessing the robust capabilities of the Solana blockchain to redefine BARK Token claiming and tokenized asset markets.",
   "private": true,
   "scripts": {
@@ -39,9 +39,12 @@
     "@solana/wallet-adapter-solflare": "^0.6.28",
     "@solana/wallet-adapter-wallets": "^0.19.32",
     "@solana/web3.js": "^1.91.2",
+    "@stripe/react-stripe-js": "^2.6.2",
+    "@stripe/stripe-js": "^3.1.0",
     "@tanstack/react-query": "^5.28.9",
     "@tanstack/react-table": "^8.15.0",
     "@vercel/speed-insights": "^1.0.10",
+    "axios": "^1.6.8",
     "big.js": "^6.2.1",
     "bs58": "^5.0.0",
     "class-variance-authority": "^0.7.0",
