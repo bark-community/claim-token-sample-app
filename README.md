@@ -1,11 +1,11 @@
-# BARK Asset Management dApp
+# BARK | Asset Management dApp
 
 <div align="center">
   <img src="https://github.com/bark-community/claim-token-sample-app/blob/main/github/screenshot.png" alt="Asset Management dApp Screenshot" width="600" height="auto">
 </div>
 
 ## Table of Contents
-- [BARK Asset Management dApp](#bark-asset-management-dapp)
+- [BARK | Asset Management dApp](#bark--asset-management-dapp)
   - [Table of Contents](#table-of-contents)
   - [Frameworks](#frameworks)
   - [Introduction](#introduction)
